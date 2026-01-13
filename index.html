@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarushi Goel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background with Floating Particles -->
+    <div class="animated-bg"></div>
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation with Glassmorphism -->
+    <nav class="glassmorphic-nav">
+        <div class="nav-content">
+            <a href="#home" class="nav-logo">TG</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Profile Container -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="pulsing-profile">
+                <div class="profile-circle">
+                    <img src="https://avatars.githubusercontent.com/u/192229902?v=4" alt="Tarushi Goel" class="profile-image">
+                </div>
+                <div class="profile-glow"></div>
+            </div>
+            
+            <h1 class="name-title">Tarushi Goel</h1>
+            <p class="profession-title">Student</p>
+            
+            <p class="hero-subtitle">
+                Passionate about AI/ML and Full Stack Web Development
+            </p>
+            
+            <div class="cta-buttons">
+                <button class="cta-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                    View My Work
+                </button>
+                <button class="cta-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Get In Touch
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>Skills & Expertise</h2>
+            <p>Technologies and domains I specialize in</p>
+        </div>
+
+        <div class="skills-grid">
+            <!-- AI/ML Card -->
+            <div class="skill-card fade-in">
+                <div class="skill-icon ai-icon">🤖</div>
+                <h3>AI/ML</h3>
+                <ul class="skill-list">
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Data Analysis</li>
+                    <li>Neural Networks</li>
+                    <li>Python & TensorFlow</li>
+                </ul>
+            </div>
+
+            <!-- Full Stack Web Dev Card -->
+            <div class="skill-card fade-in">
+                <div class="skill-icon web-icon">💻</div>
+                <h3>Full Stack Web Dev</h3>
+                <ul class="skill-list">
+                    <li>Frontend (HTML, CSS, JS)</li>
+                    <li>React & Modern Frameworks</li>
+                    <li>Backend Development</li>
+                    <li>Database Design</li>
+                    <li>API Development</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Showcasing my recent work and experiments</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card shimmer-effect">
+                <div class="project-header"></div>
+                <div class="project-content">
+                    <h3>Restimator</h3>
+                    <p>Restaurant management and estimation tool with beautiful UI. Live deployment showcasing frontend skills and user experience design.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Web App</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                    <a href="https://github.com/tarushigoel23/Restimator" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card shimmer-effect">
+                <div class="project-header"></div>
+                <div class="project-content">
+                    <h3>AI-Powered Commenter</h3>
+                    <p>Intelligent system leveraging AI to generate meaningful comments and annotations. Demonstrates ML integration in practical applications.</p>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <a href="https://github.com/tarushigoel23/AI-Powered-Commenter" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+
+            <div class="project-card shimmer-effect">
+                <div class="project-header"></div>
+                <div class="project-content">
+                    <h3>FlavorMatch</h3>
+                    <p>Intelligent recipe and flavor pairing application. Matches ingredients and recipes based on flavor profiles with a beautiful, responsive interface.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">Web App</span>
+                        <span class="tag">Vercel</span>
+                    </div>
+                    <a href="https://github.com/tarushigoel23/FlavorMatch" target="_blank" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Let's Connect</h2>
+            <p>Get in touch with me for opportunities and collaborations</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-icon">📧</div>
+                <h3>Email</h3>
+                <a href="#">tarushigoel23@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">💼</div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/tarushi-goel-28105526a/" target="_blank">Connect with me</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">🐙</div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/tarushigoel23" target="_blank">View my repositories</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Tarushi Goel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
